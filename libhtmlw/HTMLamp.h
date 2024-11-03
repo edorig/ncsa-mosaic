@@ -57,7 +57,7 @@ typedef struct amp_esc_rec {
         unsigned int value;
 } AmpEsc;
 
-
+/* Source for HTML entities definitions: https://www.w3.org/2003/entities/2007/ */ 
 static AmpEsc AmpEscapes[] = {
   {"AElig",198},
   {"AElig",198},
@@ -428,13 +428,13 @@ static AmpEsc AmpEscapes[] = {
   {"NotSquareSubsetEqual",8930},
   {"NotSquareSuperset",8848},
   {"NotSquareSupersetEqual",8931},
-  {"NotSubset",8834, 8402}, /* 2char */
+  {"NotSubset",8836}, /* was 2 char entity  */
   {"NotSubsetEqual",8840},
   {"NotSucceeds",8833},
   {"NotSucceedsEqual",10928},
   {"NotSucceedsSlantEqual",8929},
   {"NotSucceedsTilde",8831},
-  {"NotSuperset",8835, 8402}, /* 2char */
+  {"NotSuperset",8837}, /* was 2 char entity */
   {"NotSupersetEqual",8841},
   {"NotTilde",8769},
   {"NotTildeEqual",8772},
